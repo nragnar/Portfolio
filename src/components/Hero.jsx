@@ -44,13 +44,13 @@ const Hero = () => {
           <br />
           <h2 className=''>Skills</h2>
             <div className='flex flex-row gap-2 mt-[5px]'>
-              <FaPython className='bannerIcon'/>
-              <FaReact className='bannerIcon'/>
-              <DiJavascript1 className='bannerIcon'/>
-              <SiTailwindcss className='bannerIcon'/>
+              <FaPython className='bannerIcon2'/>
+              <FaReact className='bannerIcon2'/>
+              <DiJavascript1 className='bannerIcon2'/>
+              <SiTailwindcss className='bannerIcon2'/>
             </div>
           <br/>
-          <h2 className="">Find me On</h2>
+          <h2 className="">Find me on:</h2>
             <div className='flex flex-row gap-2 mt-[5px]'>
               <AiOutlineGithub onClick={() => window.open('https://github.com/nragnar')} className='bannerIcon2 hover:cursor-pointer'/>
               <AiFillLinkedin onClick={() => window.open('https://www.linkedin.com/in/nicolas-naikou-413215273/')} className='bannerIcon2 hover:cursor-pointer'/>
